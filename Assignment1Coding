@@ -1,0 +1,154 @@
+Coding:
+
+package Firefly Airline: import java.util Scanner:
+
+public class OnboardServiceSysteml
+
+private static final double Package4 = 0:
+
+public static void main(String args) {
+
+// TODO Auto-generated method stub
+
+Scanner input = new Scanner (System. in
+
+variable String customer1, customer2., customer 3:
+
+String travelClass:
+
+String gender:
+
+String seatNumber: String detail:
+
+int phoneNumber:
+
+double packageMealPrice, actualPrice, discount1, totalAmount:
+
+Greeting for customer System.out.println("Hi ladies and gentlemen Welcome to Firefly Airline & System.out.println("Dear customers, you may order you onboard services here. ^*):
+
+have a nice trip.");
+
+System.out.println();
+
+//Getting customer personal information
+
+System.out.println("Please fill in your personal information here.");
+
+System.out.println();
+
+System.out.print("Enter your nickname: "); String nickname1= input.nextLine():
+
+System.out.print("Enter your gender: "); String genderl=input.nextLine();
+
+System.out.print("Enter your phone number: "); String phoneNumber1= input.nextLine();
+
+System.out.print("Enter your seat number: "); String seatNumber1= input.nextLine():
+
+System out print("Enter your travel class: ");
+
+String travelClass1=input.nextLine();
+
+//Display Onboard Services.
+
+System.out.println("\t Lists Package of meals "); System.out.println Package A = Scrambled Eggs With Beef Steak & Chicken Sausage (BCML) + Lemon Tea "); System.out.println("PricePackageA= RM50");
+
+System.out.println("Package B=Nasi Lemak With Prawns Sambal (AAML) +7 UP"); System.out.println("PricePackageB= RM45");
+
+System.out.println("Belgian Waffle (BGML) +Caramel White Coffee "); Bystem.out.println("PricePackageC=RM30");
+
+System.out.println("Vegan wrap + Hot cocon");
+
+System.out.println("PricePackageD = RM15");
+
+System.out.println("Double ham & cheese + Lavazza coffee *); System.out.println! PricePackageE= RM25");
+
+System.out.println("Friut salad "); System.out.println("PricePackageF = RM15");
+
+System.out.println("Oat meal ");
+
+System.out.println("PricePackageG = RM10");
+
+//Ask customer to continue the onboard services with System.out.println("\t\nEnter Packages of Meals");
+
+System.out.print(" ");
+
+String packages OfMeals input.nextLine():
+
+System.out.print(" Quantity of package: ");
+
+double quantity = input.nextDouble():
+
+System.out.println("Meal Package: A= RM50 "); double packageA = 50;
+
+double Packaged:
+
+double total = quantity packageA:
+
+System.out.println("Total" + double vat= (total * .12) /
+
+total):
+
+100:
+
+System.out.println("Vat 12%: "+ vath: System.out.println("Type of Travel Class Buisness Class");
+
+double discount = (total + vat* 0)/100; System.out.println("Discount:
+
+discount);
+
+discount:
+
+double tprice = (total + vat) -
+
+System.out.println("Total Price: "+ tprice): System.out.print("Cash Rendered: ");
+
+double cashrendered =
+
+input nextDouble 0:
+
+torice:
+
+double change = cashrendered -
+
+#Ask customer to continue the onboard services with System.out.println("\t\nEnter Packages of Meals");
+
+System.out.print(" "); String packages OfMeals input nextLine():
+
+System.out.print(" Quantity of package: "): double quantity
+
+System.out.println("Meal Package:
+
+Input.nextDouble 0: A = RM60 ");
+
+double packageA= 50 double PackageA:
+
+double total= quantity packageA: System.out.println("Total:" + double vat= (total 12) /
+
+total): 100:
+
+System.out.println("Vat 12%: System.out.println(Type of Travel Class: Buisness Class"). double discount = (total + vat 0)/100;
+
+System.out.println("Discount + double tprice= (total + vat) -
+
+System.out.println("Total Price:
+
+discount): discount:
+
+tprice);
+
+System.out.print("Cash Rendered: 3):
+
+double cashrendered = double change cashrendered -
+
+input.nextDouble();
+
+System.out.println("Change:
+
+tprice: change):
+
+System.out.println("\nThank you for puchasing the service of Firefly Airlines!");
+
+	}
+}
+
+
